@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.hostname = "websrv.dev"
-  config.vm.network "private_network", ip: "10.0.1.1", auto_config: "true"
+  config.vm.network "private_network", ip: "10.0.1.10", auto_config: "true"
   config.vm.define :websrv do |websrv|
   end
 
